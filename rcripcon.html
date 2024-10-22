@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rcripcon</title>
+</head>
+<body>
+    <h1>Rcripcon</h1>
+
+    <label for="password">Password:</label>
+    <input type="text" id="password" placeholder="Password"><br><br>
+
+    <label for="key">Introduce la clave secreta:</label>
+    <input type="text" id="key" placeholder="Clave secreta"><br><br>
+
+    <button onclick="encryptPassword()">Cifrar</button>
+    <button onclick="decryptPassword()">Descifrar</button><br><br>
+
+    <h3>Resultado:</h3>
+    <p id="result"></p>
+
+    <script src="js/crypto-js.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
